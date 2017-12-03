@@ -1,8 +1,8 @@
 ---
 layout: post
-title: This is the title of the post
+title: First Post!
 postHero: /images/shark.jpg
-author: Me, Myself, and I
+author: Andrew Hu
 authorTwitter: http://twitter.com/mhartl
 gravatar: https://s.gravatar.com/avatar/ef48597bb5ae621725d809756e9d3bc7?s=80
 postFooter: Additional information, and maybe a <a href="#">link or two</a>
