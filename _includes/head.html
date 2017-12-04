@@ -4,6 +4,11 @@
     {% else %}
       <title>Andrew Hu</title>
     {% endif %}
+    {% if page.description %}
+      <meta name="description" content="{{ page.description }}">
+    {% else %}
+      <meta name="description" content="Andrew Hu's personal site.">
+    {% endif %}
     <link href="/favicon.png" rel="icon">
     <link rel="apple-touch-icon" href="/gohan-blanco.jpg">
     <meta charset="utf-8">
