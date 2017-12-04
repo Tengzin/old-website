@@ -1,6 +1,11 @@
 <head>
-    <title>Andrew Hu</title>
+    {% if page.title %}
+      <title>{{ page.title }} | Andrew Hu</title>
+    {% else %}
+      <title>Andrew Hu</title>
+    {% endif %}
     <link href="/favicon.png" rel="icon">
+    <link rel="apple-touch-icon" href="/gohan-blanco.jpg">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:100,400" 
